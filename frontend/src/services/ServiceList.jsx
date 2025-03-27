@@ -36,7 +36,3 @@ const ServiceList = () => {
 }
 
 export default ServiceList
-
-
-// Harsh-2606
-// jackbaradcr7@gmail.com
