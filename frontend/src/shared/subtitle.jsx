@@ -7,4 +7,3 @@ const subtitle = ({subtitle}) => {
 }
 
 export default subtitle
-
