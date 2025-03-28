@@ -1,11 +1,9 @@
 import React from "react";
 import "../styles/home.css";
 import { Container, Row, Col, CardSubtitle } from "reactstrap";
-// import heroImg from "../assets/images/hero-img01.jpg";
-// import heroImg02 from "../assets/images/hero-img02.jpg";
-import adventure from "../assets/images/adventure.mp4";
+import heroImg from "../assets/images/hero-img01.jpg";
+import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
-import ladakh from "../assets/images/ladakh.mp4";
 import worldImg from "../assets/images/world.png";
 import Subtitle from "./../shared/subtitle";
 
@@ -41,8 +39,8 @@ const Home = () => {
 
             <Col lg="2">
               <div className="hero__img-box">
-                {/* <img src={heroImg} alt="" /> */}
-                <video src={ladakh} autoPlay loop muted playsInline />
+                <img src={heroImg} alt="" />
+                {/* <video src={ladakh} autoPlay loop muted playsInline /> */}
               </div>
             </Col>
             <Col lg="2">
@@ -52,8 +50,8 @@ const Home = () => {
             </Col>
             <Col lg="2">
               <div className="hero__img-box mt-5">
-                {/* <img src={heroImg02} alt="" /> */}
-                <video src={adventure} autoPlay loop muted playsInline />
+                <img src={heroImg02} alt="" />
+                {/* <video src={adventure} autoPlay loop muted playsInline /> */}
               </div>
             </Col>
 
